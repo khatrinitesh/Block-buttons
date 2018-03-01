@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.btn{
+	background-color: #4caf50;
+	border: 1px solid #4caf50;
+	border-radius: 3px;
+	line-height: 50px;
+	display: block;
+	color: #fff;
+	outline: none;
+	width: 100%;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+
+.btn:hover{
+	background-color: #ccc;
+	border: 1px solid #ccc;
+}
